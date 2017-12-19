@@ -1,0 +1,16 @@
+html {
+  font-style: Helvetica sans-serif;
+}
+
+header {
+  border: 1px solid red;
+}
+
+button {
+  background-color: #404040;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 20px;
+}
