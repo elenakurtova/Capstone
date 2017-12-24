@@ -72,10 +72,6 @@ ul li a {
   display: none;
 }
 
-.main-content {
-
-}
-
 .banner {
   background-color: #D0D0D0;
   width: 100%;
@@ -152,6 +148,7 @@ ul li a {
   display: flex;
   padding: 32px, 24px;
 }
+
 .quote-1,
 .quote-2 {
   width: 60%;
@@ -235,7 +232,6 @@ ul li a {
   color: 	#1E90FF;
 }
 
-
 .events,
 .details {
   display: flex;
@@ -309,6 +305,11 @@ ul li a {
   margin: 0;
 }
 
+.course-data h3 {
+  font-size: 1.2rem;
+  padding: 8px 0;
+}
+
 .course-data h4 {
   font-size: 1.4rem;
   font-weight: 600;
@@ -320,9 +321,11 @@ ul li a {
   padding: 0;
 }
 
+/*
 .course-data.big {
 
 }
+*/
 
 .quote-2 .title {
   font-size: 3rem;
@@ -342,14 +345,11 @@ ul li a {
   line-height: 3rem;
   font-weight: 600;
 }
+
 .quote-2 p {
   font-size: 1.2rem;
   line-height: 2rem;
   padding: 24px 0;
-}
-
-.quote-container-2 {
-
 }
 
 .footer {
@@ -455,5 +455,4 @@ ul li a {
   nav {
     display: none;
   }
-
 }
