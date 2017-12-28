@@ -288,7 +288,7 @@ ul li a {
   width: 30%;
   height: auto;
   margin: 0 0 32px 0;
-  padding: 0 32px 24px 0;
+  padding: 0 24px 24px 24px;
 }
 
 .image-container {
@@ -303,6 +303,7 @@ ul li a {
   background-color: #F8F8F8;
   padding: 16px;
   margin: 0;
+  height: 150px;
 }
 
 .course-data h3 {
@@ -320,12 +321,6 @@ ul li a {
   line-height: 1.5rem;
   padding: 0;
 }
-
-/*
-.course-data.big {
-
-}
-*/
 
 .quote-2 .title {
   font-size: 3rem;
